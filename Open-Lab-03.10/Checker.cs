@@ -6,7 +6,20 @@ namespace Open_Lab_03._10
     {
         public int GetNumberOfCharsInString(char letter, string str)
         {
-            throw new NotImplementedException();
+            int count = 0;
+            foreach (char c in str) 
+            {
+                if (c == letter)
+                {
+                    count++;
+                }
+                else
+                {
+
+                }
+                    
+            }
+            return count;
         }
     }
 }
